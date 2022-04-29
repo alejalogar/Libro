@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+    margin: 0;
+    padding: 0
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background-image: url("img/libro.jpg");
+}
+
+
+img {
+    
+    margin: 0.5em;
+}
+
+.etwining { 
+    float: left;
+    margin-left: 700px;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+    border: 0px;
+}
+
+#cabecera {
+    clear: both;
+    padding: 1em;
+    background-color: rgba(252, 147, 62, 0.945);
+    margin-bottom: 20px;
+}
+
+div h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-left: 100px;
+
+}
+img { 
+    float: left;}
+
+#menubottom {
+    clear: both;
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #C5C5C5;
+    background-color: rgb(235, 223, 210);
+}
+
+#lateral {
+    float: left;
+    width: 20%;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+    background-color: rgb(235, 223, 210);
+}
+
+#contenido #principal {
+    float: left;
+    width: 70%;
+    padding: 0.5em;
+}
+
+#contenido #secundario {
+    float: right;
+    width: 19%;
+    padding: 0.5em;
+    border: 0.5px solid #C60;
+}
+
+#pie {
+    clear: both;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    border-top: 2px solid #C5C5C5;
+    border-bottom: 2px solid #C5C5C5
+}
+
+#publicidad {
+    padding: 0.5em;
+}
+
+#noticias {
+    padding: 0.5em 0.5em;
+    border: 1px solid rgb(148, 146, 146);
+    background-color: lavender;
+    line-height : 25px;
+}
+
+#sidecontainer {
+    margin-top: 1em;
+    border: 1px solid rgb(29, 18, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+#validation {
+    margin-top: 150px;
+
+}
+
+
+#cabecera #logo {
+    float: left
+}
+
+
+
+#menu ul#menu_principal li {
+    display: inline;
+    float: left
+}
+
+#contenido #principal .articulo img {
+    width: 100px;
+    float: left;
+    border: none;
+}
+
+.articulo {
+    margin-bottom: 1em; }
+
+.pie {
+        margin-left: 400px;
+        float: left
+    }
+
